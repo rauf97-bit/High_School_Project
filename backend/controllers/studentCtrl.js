@@ -1,6 +1,7 @@
 import asyncHandler from 'express-async-handler'
 import { Students } from '../models/students.js'
 
+
 const getStd = asyncHandler( async( req, res) => {
   const std = await Students.find({})
   res.status(200).json(std)

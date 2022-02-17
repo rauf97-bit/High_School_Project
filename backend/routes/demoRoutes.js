@@ -4,6 +4,8 @@ import {
   postStd,
   deleteStd,
   updateStd } from '../controllers/studentCtrl.js'
+
+  // Instantiate Express router
 const router = express.Router()
 
 router.route('/').get(getStd).post(postStd)

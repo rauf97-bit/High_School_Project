@@ -1,5 +1,5 @@
 import mongoose from 'mongoose'
-
+// Schema Model for Database
 const studentSchema = mongoose.Schema({
   name: { 
     type : String,
