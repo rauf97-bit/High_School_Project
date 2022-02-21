@@ -24,3 +24,4 @@ app.listen( port, () =>{
 })
 // Route all api in the router file to the same parent Url
 app.use('/api/students', router)
+app.use('/api/users', router)
